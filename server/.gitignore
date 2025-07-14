@@ -1,3 +1,18 @@
+.env
+node_modules
+package-lock.json
+dist        
+dist-ssr
+*.local         
+*.suo
+*.ntvs*                 
+*.njsproj
+*.sln   
+*.sw?
+*.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
 # Logs
 logs
 *.log
@@ -7,13 +22,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-.env
-package-lock.json
-node_modules
-dist
-dist-ssr
-*.local
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -21,6 +29,3 @@ dist-ssr
 .DS_Store
 *.suo
 *.ntvs*
-*.njsproj
-*.sln
-*.sw?
